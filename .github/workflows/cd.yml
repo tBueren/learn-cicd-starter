@@ -19,7 +19,7 @@ jobs:
           go-version: "1.26.0"
 
       - name: Build
-        run: ./scripts/build.sh
+        run: ./scripts/buildprod.sh
         
       - name: Deploy to production
         run: echo "Deploying to production..."
