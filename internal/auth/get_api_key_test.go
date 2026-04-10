@@ -9,7 +9,7 @@ import (
 
 func TestNoAuthHeaderGiven(t *testing.T) {
 	headers := http.Header{}
-
+	t.Fatalf("BREAK HERE")
 	_, err := GetAPIKey(headers)
 
 	if !errors.Is(err, ErrNoAuthHeaderIncluded) {
