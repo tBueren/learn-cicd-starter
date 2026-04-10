@@ -7,6 +7,10 @@ import (
 	"testing"
 )
 
+func unused() {
+	// this funciton is only here to piss the static check off
+}
+
 func TestNoAuthHeaderGiven(t *testing.T) {
 	headers := http.Header{}
 
