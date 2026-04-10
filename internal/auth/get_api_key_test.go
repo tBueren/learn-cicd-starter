@@ -50,4 +50,3 @@ func TestApiKeyReturnedCorrectly(t *testing.T) {
 		t.Fatalf("Unexpexted error to be thrown. Got res %v, and err val %v, expected val %v", res, err, apiKey)
 	}
 }
-
